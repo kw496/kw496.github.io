@@ -24,6 +24,7 @@ header {
   /* text-align: right; */
   display: flex;
   justify-content: space-between;
+  /* position: fixed;  */
 }
 
 body {
