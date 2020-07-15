@@ -70,6 +70,14 @@ p {
   /* width: 100%; */
 }
 
+#proscons {
+  height: 700px;
+}
+
+#dd {
+  width: 100%;
+}
+
 #case_study_full_width_images {
   width: 100%;
   margin-top: 24px;
