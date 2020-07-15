@@ -35,9 +35,64 @@ body {
   height: 100%;
   /* display: flex;
   justify-content: space-between; */
+  /* text-align: center;  */
 }
 
 h1 {
+  font-size: 32px;
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  text-decoration: none;
+  margin: 0;
+  color: #3b4358;
+  font-weight: 400;
+  letter-spacing: .01em;
+  line-height: 51px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.case_study_body {
+  /* display: inline-block; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+p {
+  font-size: 20px;
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  text-decoration: none;
+  margin: 0;
+  color: #3b4358;
+  font-weight: 400;
+  letter-spacing: .01em;
+  line-height: 32px;
+  /* width: 100%; */
+}
+
+#case_study_full_width_images {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.row {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.column {
+  flex: 50%;
+  padding: 12px;
+  text-align: center;
+}
+
+
+#name_header {
   font-size: 32px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   text-decoration: none;
@@ -47,6 +102,33 @@ h1 {
   letter-spacing: .01em;
   line-height: 51px;
   width: 40%;
+}
+
+#case_study_header {
+  font-size: 32px;
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  text-decoration: none;
+  margin: 0;
+  color: #546fd6;
+  font-weight: 600;
+  letter-spacing: .01em;
+  line-height: 51px;
+  margin-bottom: 48px;
+}
+
+.case_study_header_span {
+  color: #3b4358;
+}
+
+.description_header {
+  color: #546fd6;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.description_value {
+  color: #3b4358;
+  font-weight: 400;
 }
 
 h2 {
@@ -389,4 +471,28 @@ footer {
 
 #work:target {
 
+}
+
+accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
 }
