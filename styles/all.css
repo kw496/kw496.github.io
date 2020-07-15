@@ -77,8 +77,8 @@ p {
 }
 
 .row {
-  display: flex;
-  width: auto;
+  display: inline-flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
   margin-top: 64px;
@@ -87,10 +87,33 @@ p {
 
 .column {
   flex: 50%;
-  padding: 12px;
+  /* padding: 12px; */
   text-align: center;
+  width: fit-content;
+  height: fit-content;
 }
 
+.case_study_screenshot {
+  height: 700px;
+  line-height: 0;
+}
+
+.case_study_section_title {
+  font-weight: bold;
+}
+
+#user_research_screenshot {
+  width: 100%;
+  height: 100%;
+}
+
+.main-point {
+  font-size: 24px;
+  line-height: 140%;
+  padding-left: 20px;
+  border-left: 3px solid #546fd6;
+  margin-top: 24px; 
+}
 
 #name_header {
   font-size: 32px;

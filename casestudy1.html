@@ -25,7 +25,7 @@
   </header>
   <!-- <div class = "case_study_body_container"> -->
   <div class = "case_study_body">
-    <h1 id = "case_study_header">IBM Cloud Schematics Shared Data Sets<span class = "case_study_header_span"> — Creating a way for DevOps engineers
+    <h1 id = "case_study_header">IBM Cloud Schematics Shared Data Sets<span class = "case_study_header_span"> — Creating a way for DevOps engineers to
     "autofill" their variable values</span></h1>
     <p class = "description_header">Company<span class = "description_value"> / IBM</span></p>
     <p class = "description_header">Role<span class = "description_value"> / Designer working with 2 other designers, 1 researcher, 3 developers and 1 product manager</span></p>
@@ -40,22 +40,55 @@
         <img class = "case_study_screenshot" src = "images/modal.png">
       </div>
     </div>
+
+    <h1 class = "case_study_section_title">Context</h1>
+    <p>IBM Cloud Schematics is an infrastructure as code tool. If that sounds a little complex, let me
+      break it down for you.</p>
+      </br>
+
     <p>
-      Before, you had to manually deploy resources.
-      Now, you can deploy resources via code. <br><br>
+      Normally, everytime a DevOps engineer wants to create a resource,
+      they need to go to IBM Cloud and manually create them, one by one. We can compare this to how everytime you want to
+      go somewhere by car, you need to follow a set of Google Maps instructions, one by one.</p>
+      </br>
+    <p>However, with IBM Cloud Schematics, a DevOps engineer can create several resources with just a few lines
+      of code. Similarly, with Uber, you can just enter the address of your desired location, and then sit back
+      and relax.<p>
 
-      Schematics is an infrastructure as code product,
-      enabling a DevOps engineer to deploy several resources
-      (i.e. a Kubernetes cluster).
-    </p>
+    <p class = "main-point">Schematics is like the Uber of provisioning resources - instead of
+    creating each resource one by one, you just define all your resources with a few lines of code,
+    just like how instead of following Google Maps directions one by one, you just enter
+    an address in the Uber app.</p>
 
-    <img id = "case_study_full_width_images" src = "images/01 world.png" alt = "Old Schematics screenshot">
+    <div class = "row">
+      <div class = "column">
+        <img class = "case_study_screenshot" src = "images/googlemaps.png">
+      </div>
+      <div class = "column">
+        <img class = "case_study_screenshot" src = "images/uber.png">
+      </div>
+    </div>
 
-    <p > “RJ is an operations engineer with a holistic view of the network,
-    infrastructure, applications, and services. He is responsible for the
-    24/7 operation of the environment including deployments, monitoring,
-    automation, and troubleshooting. He often receives and responds to alerts
-    in order to reduce and prevent disruptions in service.” </p>
+    <h1 class = "case_study_section_title">User Research</h1>
+    <p>We spoke with four DevOps engineers (both internal and external to IBM), and asked each
+      user to deploy a starter Terraform template (the container for the few lines of code I was
+      talking about earlier). We discovered that a big issue for each person was filling out the values -
+      nobody actually filled out the necessary values to successfully complete the task.</p>
+    <p class = "main-point">None of our four users actually filled out the necessary values to successfully
+    complete the task.</p>
+      <div class = "row">
+        <div class = "column">
+          <img class = "case_study_screenshot" id = "user_research_screenshot" src = "images/userresearch.png">
+        </div>
+      </div>
+
+      <h1 class = "case_study_section_title">Problem</h1>
+      <p>We found that our main problem was that there were too many variable values to fill out. New users
+      were getting overwhelmed, and experienced users became annoyed with having to fill out the same
+      values over and over again.</p>
+      <p class = "main-point"> Schematics users want to fill out the values for variables
+      so that they can generate and apply plan, but they get annoyed having to fill out the values.</p>
+  
   </div>
 <!-- </div> -->
 
