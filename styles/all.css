@@ -216,7 +216,12 @@ nav {
   /* direction: rtl; */
 }
 
-#nav a {
+.youarehere {
+  color: white; 
+  background: green;
+}
+
+.btn {
   text-decoration: none;
   margin-left: 0%;
   padding-left: 5%;
@@ -227,13 +232,10 @@ nav {
   font-size: 18px;
 }
 
-#nav a:hover {
+.active, .btn:hover {
   color: #3B4358;
 }
 
-#nav a:active {
-  color: #3B4358;
-}
 
 #nav a:focus {
   color: #3B4358;
@@ -548,9 +550,9 @@ accordion {
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
+/* .active, .accordion:hover {
   background-color: #ccc;
-}
+} */
 
 .panel {
   padding: 0 18px;
