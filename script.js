@@ -59,10 +59,11 @@ console.log(btns);
     });
   }
 
-
+$(document).ready(function(){
 $(".btn > a").click(function() {             // when clicking any of these links
     $(".box > a").removeClass("youarehere"); // remove highlight from all links
     $(this).addClass("youarehere");          // add highlight to clicked link
 })
 
+})
 }
