@@ -217,7 +217,7 @@ nav {
 }
 
 .youarehere {
-  color: white; 
+  color: white;
   background: green;
 }
 
@@ -453,10 +453,71 @@ footer {
   text-align: center; */
 }
 
-@media screen and (max-width: 600px) {
-  .logo, .textdiv {
+@media screen and (max-width: 1024px) {
+  .header, .logo, .textdiv, .abouttextdiv, .personalitypic, .nav  {
     width: 100%;
+  }
+}
 
+@media screen and (max-width: 1024px) {
+  #nav, #name_header {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header.header {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  p#name_header {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  ul#myDIV {
+    display: flex;
+    margin-bottom: 48px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  a#work.btn{
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  a#work.btn, a#resume.btn, a#about.btn {
+    margin: 0;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav#nav, header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1, .nav {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .abouttextidv {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
   }
 }
 
@@ -470,13 +531,6 @@ footer {
 @media screen and (max-width: 600px) {
   #lastlogotextdiv {
     margin-bottom: 0%;
-
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .personalitypic, .abouttextdiv {
-    width: 100%;
   }
 }
 
@@ -488,20 +542,15 @@ footer {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   header {
-    display: inline;
+    display: none;
   }
 }
 
-@media screen and (max-width: 750px) {
-  nav {
-    text-align: center;
-    width: 100%;
-  }
-}
 
-@media screen and (max-width: 750px) {
+
+@media screen and (max-width: 1024px) {
   h1 {
     text-align: center;
     width: 100%;
