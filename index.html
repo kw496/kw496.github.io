@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
   rel="stylesheet" type="text/css">
+  <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152813895-2"></script>
@@ -27,13 +28,14 @@
   <meta property="og:description" content="Hi! I'm a product designer at IBM, currently based in Austin, TX."/>
   <meta property="og:type" content="website"/>
   <link rel="icon" href="images/kw.png">
-  <script src="./all.js"></script>
+  <script src="script.js" type = "text/javascript"></script>
+
 </head>
 
 <body>
-<!-- <script src="all.js"></script> -->
+<script src="all.js"></script>
 
-  <header>
+  <header class = "header" id = "myHeader">
     <p id = "name_header"><a href = index.html><span class = "firstname">Kathy Wang</span></a></p>
     <!-- <div id = "personallogodiv">
       <img id = "personallogo" src = "images/kwlogo.jpg" alt = "Personal Logo">
@@ -47,7 +49,8 @@
     </nav>
   </header>
 
-  <div class = "logotextdiv animated fadeInUp">
+<div class = "content">
+  <div class = "logotextdiv animated fadeInUp" id = "firstlogotextdiv">
     <a href = "casestudy1.html">
     <img class = "logo" src = "images/ibm_mockups.png" alt = "IBM Icon">
     </a>
@@ -133,6 +136,23 @@
       </p>
     </div>
   </div>
+
+</div>
+
+  <!-- <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script> -->
 
 </body>
 

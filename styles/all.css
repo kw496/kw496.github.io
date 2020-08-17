@@ -19,14 +19,6 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
 }
 
-header {
-  margin-bottom: 5%;
-  /* text-align: right; */
-  display: flex;
-  justify-content: space-between;
-  /* position: fixed;  */
-}
-
 body {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -259,6 +251,7 @@ index.html:target {
 
 .logotextdiv {
   margin-bottom: 7%;
+  z-index: 1;
 }
 
 .logo {
@@ -620,4 +613,49 @@ accordion {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
+}
+
+/* Style the header */
+
+.header {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  /* background: #ffffff; */
+  /* width: 100%; */
+  /* position: relative;
+  z-index: 2;
+  position: fixed;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  background: white; */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Page content */
+body {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+#firstlogotextdiv {
+  /* margin-top: 130px; */
 }
