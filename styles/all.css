@@ -258,13 +258,15 @@ index.html:target {
 .logotextdiv {
   margin-bottom: 7%;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-  width: 45%;
+  width: 500px;
   /* height: 20%; */
   border-radius: 5%;
-  margin-right: 5%;
+  margin-right: 95px;
   margin-bottom: 5%;
   box-shadow: 0px 2px 24px rgba(163, 163, 163, 0.5)
 }
@@ -286,7 +288,7 @@ index.html:target {
 
 .textdiv {
   display: inline-block;
-  width: 49%;
+  width: 400px;
   height: 100%;
   vertical-align: top;
   padding: none;
@@ -303,6 +305,10 @@ index.html:target {
   padding: none;
 }
 
+.personalitypicabouttextdiv {
+  display: flex;
+  justify-content: space-between;
+}
 
 
 .text {
@@ -482,6 +488,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .logotextdiv, .personalitypicabouttextdiv {
+    /* margin: 0 auto; */
+    display: block;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .header, .logo, .textdiv, .abouttextdiv, .personalitypic, .nav  {
