@@ -256,10 +256,13 @@ index.html:target {
 }
 
 .logotextdiv {
-  margin-bottom: 7%;
+  margin-bottom: 128px;
   z-index: 1;
   display: flex;
   justify-content: space-between;
+}
+
+#firstlogotextdiv {
 }
 
 .logo {
@@ -733,7 +736,7 @@ accordion {
 /* Style the header */
 
 .header {
-  margin-bottom: 5%;
+  margin-bottom: 72px;
   display: flex;
   justify-content: space-between;
   /* background: #ffffff; */
