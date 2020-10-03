@@ -20,11 +20,15 @@
 }
 
 body {
+  /* display: flex; */
+  margin: 0 auto;
   margin-top: 2%;
-  margin-bottom: 5%;
-  margin-left: 20%;
-  margin-right: 20%;
-  height: 100%;
+  margin-bottom: 2%;
+  /* margin-left: 20%;
+  margin-right: 20%; */
+  /* height: 100%; */
+  width: 1000px;
+  /* justify-content: center; */
   /* display: flex;
   justify-content: space-between; */
   /* text-align: center;  */
@@ -470,10 +474,41 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+  body {
+    /* margin: 0 auto; */
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 600px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
   .header, .logo, .textdiv, .abouttextdiv, .personalitypic, .nav  {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 750px) {
+  body  {
+    /* margin-right: 64px;
+    margin-left: 64px; */
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header, .logo, .textdiv, .abouttextdiv, .personalitypic, .nav  {
+    display: inline-block;
+    width: 100%;
+  }
+}
+/*
+@media screen and (max-width: 750px) {
+  body {
+    width: 100%;
+  }
+} */
 
 @media screen and (max-width: 1024px) {
   #nav, #name_header {
@@ -539,8 +574,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   .logotextdiv {
-    margin-bottom: 15%;
-
+    margin-bottom: 64px;
   }
 }
 
@@ -551,12 +585,12 @@ footer {
 }
 
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   body {
     margin-left: 5%;
     margin-right: 5%;
   }
-}
+} */
 
 @media screen and (max-width: 800px) {
   header {
@@ -573,33 +607,29 @@ footer {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   ul {
     padding: 0;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   #nav a {
     padding: 0%;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   #nav {
     margin-bottom: 5%;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   #work, #resume {
     margin-left: 35px;
     margin-right: 35px;
   }
-}
-
-#work:target {
-
 }
 
 accordion {
@@ -704,12 +734,6 @@ accordion {
 .content {
   position: relative;
   z-index: 1;
-}
-
-
-/* Page content */
-body {
-  padding: 16px;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
