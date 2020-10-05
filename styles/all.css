@@ -488,7 +488,7 @@ footer {
   text-align: center; */
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   body {
     /* margin: 0 auto; */
     margin-top: 2%;
@@ -497,14 +497,14 @@ footer {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .logotextdiv, .personalitypicabouttextdiv {
     /* margin: 0 auto; */
     display: block;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .header, .logo, .textdiv, .abouttextdiv, .personalitypic, .nav  {
     width: 100%;
   }
@@ -531,13 +531,13 @@ footer {
   }
 } */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   #nav, #name_header {
     display: block;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   header.header {
     display: block;
     width: 100%;
@@ -545,14 +545,14 @@ footer {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   p#name_header {
     width: 100%;
     margin: 0;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   ul#myDIV {
     display: flex;
     margin-bottom: 48px;
@@ -560,32 +560,32 @@ footer {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   a#work.btn{
     padding-left: 0;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   a#work.btn, a#resume.btn, a#about.btn {
     margin: 0;
     padding-right: 16px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   nav#nav, header {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   h1, .nav {
     text-align: center;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   .abouttextidv {
     margin-left: 0;
     margin-right: 0;
@@ -621,32 +621,32 @@ footer {
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   h1 {
     text-align: center;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   ul {
     padding: 0;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   #nav a {
     padding: 0%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   #nav {
     margin-bottom: 5%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1080px) {
   #work, #resume {
     margin-left: 35px;
     margin-right: 35px;
