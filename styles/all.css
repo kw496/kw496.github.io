@@ -22,7 +22,7 @@
 body {
   /* display: flex; */
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 48px;
   margin-bottom: 2%;
   /* margin-left: 20%;
   margin-right: 20%; */
@@ -491,7 +491,7 @@ footer {
 @media screen and (max-width: 1080px) {
   body {
     /* margin: 0 auto; */
-    margin-top: 2%;
+    margin-top: 48px;
     margin-bottom: 2%;
     width: 600px;
   }
@@ -737,7 +737,7 @@ accordion {
 /* Style the header */
 
 .header {
-  margin-bottom: 72px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
   /* background: #ffffff; */
@@ -794,4 +794,17 @@ accordion {
   margin-top: 16px;
   width: 70px;
   line-height: 29px;
+}
+
+#intro-text {
+  margin-bottom: 128px;
+}
+
+#mydiv {
+  margin-bottom: 128px;
+}
+
+.intro-div {
+  width: 550px;
+  margin: auto; 
 }
