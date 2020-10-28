@@ -180,6 +180,7 @@ p {
   font-weight: 400;
 }
 
+
 h2 {
   margin-top: 0;
   margin-bottom: 0;
@@ -313,6 +314,9 @@ index.html:target {
   justify-content: space-between;
 }
 
+#tagline {
+  font-size: 36px;
+}
 
 .text {
   text-align: left;
@@ -434,6 +438,26 @@ footer {
 .intro-div {
   width: 550px;
   margin: auto;
+  margin-bottom: 128px;
+}
+
+#more-info-div {
+  display: flex;
+}
+
+.more-info {
+  margin-top: 32px;
+  margin-right: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.more-info-icon {
+  /* height: 12px; */
+  margin-top: 32px;
+  margin-right: 8px;
+  /* vertical-align: middle; */
 }
 
 .cta {
@@ -618,6 +642,11 @@ footer {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .more-info {
+    margin-right: 24px;
+  }
+}
 
 /* @media screen and (max-width: 750px) {
   body {
@@ -801,8 +830,6 @@ accordion {
   white-space: nowrap;
 }
 
-
-
 #viewpdf {
   margin-top: 16px;
   width: 70px;
@@ -810,7 +837,7 @@ accordion {
 }
 
 #intro-text {
-  margin-bottom: 128px;
+  margin-top: 32px;
 }
 
 #mydiv {
