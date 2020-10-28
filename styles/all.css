@@ -431,6 +431,11 @@ footer {
   margin-bottom: 0%;
 }
 
+.intro-div {
+  width: 550px;
+  margin: auto;
+}
+
 .cta {
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   font-weight: 600;
@@ -574,8 +579,16 @@ footer {
 }
 
 @media screen and (max-width: 1080px) {
-  nav#nav, header {
+  nav#nav, header,  {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .intro-div {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
@@ -802,9 +815,4 @@ accordion {
 
 #mydiv {
   margin-bottom: 128px;
-}
-
-.intro-div {
-  width: 550px;
-  margin: auto; 
 }
