@@ -22,6 +22,7 @@
 
   <title>Kathy Wang</title>
 
+
   <meta property="og:image" content="images/ibm_mockups.png"/>
   <meta property="og:title" content="Kathy Wang's Portfolio"/>
   <meta property="og:url" content="http://www.kathywang.me"/>
@@ -39,6 +40,7 @@
 
   <header class = "header" id = "myHeader">
     <p id = "name_header"><a href = index.html><span class = "firstname">Kathy Wang</span></a></p>
+    <!-- <p>Product Designer</p> -->
     <!-- <div id = "personallogodiv">
       <img id = "personallogo" src = "images/kwlogo.jpg" alt = "Personal Logo">
     </div> -->
@@ -49,6 +51,7 @@
         <a class = "btn" id = "about" href = about.html> About </a>
       </ul>
     </nav>
+
   </header>
 
   <div class = "intro-div">
@@ -266,6 +269,23 @@ function myFunction() {
   }
 }
 </script> -->
+<script>
+function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+  console.log( copyText );
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+</script>
 
 </body>
 
@@ -274,6 +294,11 @@ function myFunction() {
   <div class = contactlogodiv>
     <!-- <a id = "linkedinlogo" href = "https://www.linkedin.com/in/kathytwang/">
       <img class ="contactlogo" src = "images/linkedinlogo.png" alt = "LinkedIn Logo"> -->
+      <!-- The text field -->
+  <!-- <input type="text" value="Hello World" id="myInput"> -->
+
+  <!-- The button used to copy the text -->
+  <!-- <button onclick="myFunction()">Copy text</button> -->
     </a>
   </div>
 </footer>

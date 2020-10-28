@@ -1,4 +1,3 @@
-
 window.onload = () => {
 // $("#nav a").on("click", function(){
 //    $("#nav a").find(".active").removeClass("active");
@@ -6,10 +5,9 @@ window.onload = () => {
 // });
 
 
-console.log('script.js says "I\'m here"');
 
 // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+// window.onscroll = function() {myFunction()};
 
 // // Get the header
 // var header = document.getElementById("myHeader");
@@ -52,19 +50,35 @@ window.onscroll = function() {myFunction()};
 
 
   // Loop through the buttons and add the active class to the current/clicked button
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
+//   for (var i = 0; i < btns.length; i++) {
+//     btns[i].addEventListener("click", function() {
+//       var current = document.getElementsByClassName("active");
+//       current[0].className = current[0].className.replace(" active", "");
+//       this.className += " active";
+//     });
+//   }
+//
+// $(document).ready(function(){
+// $(".btn > a").click(function() {             // when clicking any of these links
+//     $(".box > a").removeClass("youarehere"); // remove highlight from all links
+//     $(this).addClass("youarehere");          // add highlight to clicked link
+// })
+//
+// })
+
+  function myFunction() {
+    /* Get the text field */
+    var copyText = document.getElementById("myInput");
+    console.log( copyText );
+
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
+
+    /* Alert the copied text */
+    alert("Copied the text: " + copyText.value);
   }
-
-$(document).ready(function(){
-$(".btn > a").click(function() {             // when clicking any of these links
-    $(".box > a").removeClass("youarehere"); // remove highlight from all links
-    $(this).addClass("youarehere");          // add highlight to clicked link
-})
-
-})
 }
