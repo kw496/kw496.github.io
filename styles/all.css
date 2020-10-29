@@ -499,6 +499,7 @@ footer {
 .tool {
   height: 16px;
   margin-right: 16px;
+  margin-top: 32px;
 }
 
 .cta {
@@ -868,7 +869,7 @@ accordion {
   background-color: #F1F7FF;
   color: #4689F2;
   margin-right: 8px;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
   padding: 5px 7px;
   border: 1px solid #E1ECFF;
   white-space: nowrap;
