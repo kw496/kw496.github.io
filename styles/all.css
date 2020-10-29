@@ -496,6 +496,11 @@ footer {
   font-weight: 400;
 }
 
+.tool {
+  height: 16px;
+  margin-right: 16px;
+}
+
 .cta {
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   font-weight: 600;
@@ -863,7 +868,7 @@ accordion {
   background-color: #F1F7FF;
   color: #4689F2;
   margin-right: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 32px;
   padding: 5px 7px;
   border: 1px solid #E1ECFF;
   white-space: nowrap;
