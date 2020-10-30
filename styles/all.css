@@ -367,10 +367,37 @@ a:hover {
   margin-right: 0;
 } */
 
-.contactlogo {
-  width: 5%;
-  text-align: right;
+.contactlogo, .contactlogolink {
+  /* display: flex; */
+  height: 24px;
+  width: 23.85px;
+  float: right;
+  /* align-items: center;
+  justify-content: center; */
+  /* color: #959ba6; */
 }
+
+/* .contactlogo svg {
+  width: 23.85px;
+} */
+
+#blue-part {
+  float: right;
+  fill: #959BA6;
+}
+
+#white-part:hover {
+  fill: #ffffff;
+}
+
+#blue-part:hover {
+  /* filter: grayscale(100%) sepia(100%); */
+  fill: #006699;
+}
+
+/* .contactlogolink {
+  padding: auto;
+} */
 
 .contactlogodiv {
   text-align: left;
@@ -386,7 +413,7 @@ a:hover {
 
 
 h5 {
-  line-height: 29px;
+  line-height: 24px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #3B4358;
   font-weight: 400;
@@ -394,6 +421,10 @@ h5 {
   width: 100%;
   margin-left: 0;
   margin-right: 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .italic {
@@ -430,7 +461,10 @@ footer {
   display: inline-block;
   width: 100%;
   margin-right: 0;
-  margin-top: 48px;
+  margin-top: 128px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #lastlogotextdiv {
