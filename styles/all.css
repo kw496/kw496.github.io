@@ -175,11 +175,23 @@ p {
   margin-bottom: 24px;
 }
 
+#first_description_header {
+  margin-top: 32px;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .description_value {
   color: #3b4358;
   font-weight: 400;
 }
 
+.featured-case-study-vid {
+  width: 100%;
+  margin-top: 32px;
+}
 
 h2 {
   margin-top: 0;
@@ -696,7 +708,7 @@ footer {
 }
 
 @media screen and (max-width: 1080px) {
-  h1, .nav {
+  .nav {
     text-align: center;
   }
 }
@@ -744,7 +756,7 @@ footer {
 
 @media screen and (max-width: 1080px) {
   h1 {
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
   }
 }
