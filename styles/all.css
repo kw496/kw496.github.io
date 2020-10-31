@@ -269,33 +269,30 @@ index.html:target {
   color: #3B4358;
 }
 
-.logotextdiv {
-  margin-bottom: 128px;
-  z-index: 1;
-  display: flex;
-  justify-content: space-between;
-}
-
-#firstlogotextdiv {
-}
-
-.logo {
-  width: 550px;
-  /* height: 20%; */
-  /* border-radius: 5%; */
-  /* margin-right: 95px; */
-  margin-bottom: 5%;
-  /* box-shadow: 0px 2px 24px rgba(163, 163, 163, 0.5) */
-}
-
 video {
   height: 300px;
 }
 
-.logo:hover {
-  /* opacity: 0.5; */
-  /* filter: alpha( opacity = 30 ); */
-  /* background: 0px 2px 24px rgba (61, 61, 61, 0.5); */
+.logotextdiv {
+  margin-bottom: 128px;
+  /* z-index: 1; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 550px;
+  display: flex;
+  margin: auto;
+  margin-left: 0; 
+}
+
+.textdiv {
+  display: inline-block;
+  width: 350px;
+  height: 100%;
+  vertical-align: top;
+  padding: none;
 }
 
 .personalitypic {
@@ -307,19 +304,8 @@ video {
   box-shadow: 0px 2px 24px rgba(163, 163, 163, 0.5)
 }
 
-.textdiv {
-  display: inline-block;
-  width: 350px;
-  height: 100%;
-  vertical-align: top;
-  padding: none;
-  /* float: right;  */
-}
-
 .abouttextdiv {
-  /* float: right; */
   display: inline-block;
-  /* width: 45%; */
   width: 400px;
   height: 100%;
   vertical-align: top;
@@ -371,18 +357,6 @@ a:hover {
   color: #90A1E5;
 }
 
-  /* {
-  line-height: 29px;
-  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
-  color: #576a74;
-  font-weight: 400;
-  font-size: 12px; */
-  /* display: flex-inline; */
-  /* width: 30%;
-  margin-left: 0;
-  margin-right: 0;
-} */
-
 .contactlogo, .contactlogolink {
   /* display: flex; */
   height: 24px;
@@ -393,9 +367,6 @@ a:hover {
   /* color: #959ba6; */
 }
 
-/* .contactlogo svg {
-  width: 23.85px;
-} */
 
 #blue-part {
   float: right;
@@ -407,26 +378,18 @@ a:hover {
 }
 
 #blue-part:hover {
-  /* filter: grayscale(100%) sepia(100%); */
   fill: #006699;
 }
-
-/* .contactlogolink {
-  padding: auto;
-} */
 
 .contactlogodiv {
   text-align: left;
   width: 500px;
   margin-right: 0;
-  /* display: flex-inline; */
 }
 
 .resume {
   width: 100%;
 }
-
-
 
 h5 {
   line-height: 24px;
@@ -506,10 +469,8 @@ footer {
 }
 
 .more-info-icon {
-  /* height: 12px; */
   margin-top: 32px;
   margin-right: 8px;
-  /* vertical-align: middle; */
 }
 
 .featured {
@@ -574,8 +535,6 @@ footer {
   color: #fff;
   background-color: #546fd6;
   border: 1px solid #546fd6;
-  /* color: #90A1E5;
-  border: 1px solid #90A1E5; */
 }
 
 .comingsoon {
@@ -594,27 +553,10 @@ footer {
   display: block;
   width: 55%;
   text-align: center;
-
-  /* font-family: "San Francisco", "Helvetica Nueue", sans-serif;
-  font-weight: 600;
-  color: #3b4358;
-  border: 1px solid #3b4358;
-  border-radius: 5px;
-  padding: 12px;
-  font-size: 12px;
-  white-space: nowrap;
-  display: inline-block;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-top: 5%;
-  display: block;
-  width: 45%;
-  text-align: center; */
 }
 
 @media screen and (max-width: 1080px) {
   body {
-    /* margin: 0 auto; */
     margin-top: 48px;
     margin-bottom: 2%;
     width: 600px;
