@@ -284,7 +284,7 @@ video {
   width: 550px;
   display: flex;
   margin: auto;
-  margin-left: 0; 
+  margin-left: 0;
 }
 
 .textdiv {
@@ -293,6 +293,8 @@ video {
   height: 100%;
   vertical-align: top;
   padding: none;
+  margin: auto;
+  margin-right: 0; 
 }
 
 .personalitypic {
