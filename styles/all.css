@@ -294,12 +294,13 @@ video {
   vertical-align: top;
   padding: none;
   margin: auto;
-  margin-right: 0; 
+  margin-right: 0;
 }
 
 .personalitypic {
   /* width: 49%; */
   width: 500px;
+  height: 471px;
   margin-right: 5%;
   margin-bottom: 5%;
   border-radius: 5%;
