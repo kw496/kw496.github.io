@@ -284,14 +284,11 @@ video {
   width: 550px;
   display: flex;
   margin: auto;
+  margin-left: 0; 
 }
 
 #dti-logo {
-  margin-top: 0px;
-  margin-bottom: 0px;
   height: 367px;
-  /* margin-right: auto;
-  margin-left: auto; */
 }
 
 .textdiv {
