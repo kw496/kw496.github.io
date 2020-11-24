@@ -619,9 +619,16 @@ footer {
   }
 }
 
+@media screen and (max-width: 1080px) {
+  .logo {
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .logo {
-    margin-top: 48px; 
+    margin-top: 48px;
     margin-bottom: 24px;
   }
 }
