@@ -388,6 +388,17 @@ a:hover {
   fill: #006699;
 }
 
+#twitterlogo {
+  fill: #959BA6;
+}
+
+#twitterlogo:hover {
+  fill: #1DA1F2;
+}
+
+#tweet {
+  margin-left: 24px;
+}
 .contactlogodiv {
   text-align: left;
   width: 500px;
