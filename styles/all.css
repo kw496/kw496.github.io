@@ -683,9 +683,16 @@ footer {
 
 @media screen and (max-width: 1080px) {
   .header, .logo, .textdiv, .abouttextdiv, .personalitypic, .nav,
-  #ibm-case-study-vid, .case-study-img, .text-body  {
+  #ibm-case-study-vid, .case-study-img, .several-image-row, .text-body,
+  #ibm-case-study-vid-end  {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .an-image {
+    width: 292px;
   }
 }
 
