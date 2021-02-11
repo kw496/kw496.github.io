@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+  rel="stylesheet" type="text/css">
+
+  <title>Kathy Wang</title>
+</head>
+
+<body>
+  <header class = "header" id = "myHeader">
+    <p id = "name_header"><a href = index.html><span class = "firstname">
+      Kathy Wang</span></a></p>
+    <nav id = "nav">
+      <ul id = "myDIV">
+        <a class = "btn" id = "work" href = index.html> Work </a>
+        <a class = "btn" id = "resume" href = resume.html> Resume </a>
+        <a class = "btn" id = "about" href = about.html> About </a>
+      </ul>
+    </nav>
+  </header>
+
+  <!--A quick breakdown-->
+  <div class = "animated fadeInUp">
+  <div class = "text-body">
+    <h2 id = "tagline">Enable DevOps engineers to automate a full-stack workload
+      in one work day</h2>
+    <p id = "first_description_header" class = "description_header">
+      Company<span class = "description_value"> / IBM</span></p>
+    <p class = "description_header">Role<span class = "description_value">
+      / Designer working with a senior designer, a content designer,
+      a researcher, a product manager, and 4 developers</span></p>
+    <p class = "description_header">Tools<span class = "description_value">
+      / Sketch, InVision, Whimsical, Slack, Box, WebEx, Trello
+      </span></p>
+    <p id = "last_description_header" class = "description_header">Timeline
+      <span class = "description_value">/ 9 months</span></p>
+  </div>
+
+  <video id = "ibm-case-study-vid" class = "featured-case-study-vid"
+  playsinline muted autoplay loop src = "Videos/schematics.mp4"></video>
+
+  <div class = "text-body">
+    <p>
+      One of the key responsibilities of a DevOps engineer is to create a full-
+      stack workload for the company they’re working for. In other words,
+      they’re the ones setting everything up backstage, so that you can access
+      Netflix or Slack or Zoom 24/7, with no interruptions.
+    </p></br></br>
+
+    <p>
+      However, as you can imagine, this is no easy feat. It can get tedious
+      really quickly, especially when it involves setting up hundreds,
+      or even thousands, of machines.
+    </p></br></br>
+
+    <p>
+      Thus, I was part of a project to offer support for Ansible automation
+      capabilities on IBM Cloud.
+    </p></br>
+  </div>
+
+  <div class = "text-body">
+    <h1 class = "case_study_section_title">Context</h1>
+
+    <h4>The Apple Shortcuts app is a great example of automation</h4>
+
+    <p class = "margin-top-24-px">
+      Cloud computing can get complicated, so let me set the scene for you
+      with an analogy.
+    </p></br></br>
+
+    <p>
+      If you own an iPhone or iPad, you’ve probably seen, or even used,
+      the Shortcuts app. I think this app is totally underrated, because
+      it has some really cool capabilities that most people don’t know about.
+    </p>
+  </div>
+
+  <img class = "case-study-img margin-bottom-64px" src = "Images/apple-shortcuts-app.png">
+
+  <div class = "text-body">
+    <p>
+      For instance, you can create a shortcut where every time you say
+      “Hey Siri, I’m getting pulled over,” your phone will automatically send
+      your location to a specified emergency contact, and start taking a video
+      with the front camera.
+    </p></br></br>
+
+    <p>
+      Now, imagine if you had to do these things as you saw the red and blue
+      lights flashing in your rearview. You’d probably be way overwhelmed,
+      right? 😫
+    </p></br></br>
+
+    <p>
+      The Shortcuts app is a great example of how automation can really come in
+      clutch in the consumer space.
+    </p>
+
+    <h4>Apple Shortcuts app : consumer :: Ansible : DevOps engineer</h4>
+
+    <p class = "margin-top-24-px">
+      Similarly, DevOps engineers get way annoyed with having to do certain
+      tasks by hand.
+    </p></br></br>
+
+    <p>
+      However, instead of telling Siri to send their location or take a video,
+      they ask Ansible (an automation tool) to install web servers and create
+      databases.
+    </p>
+
+  </div>
+
+  <img class = "case-study-img margin-bottom-64px" src =
+  "Images/ansible-devops-engineer.png">
+
+  <div class = "text-body">
+
+    <p>
+      Now, installing a web server or creating a database in the first place
+      is no easy task. But imagine doing that up to hundreds of times?
+    </p>
+
+  </div>
+
+  <img class = "case-study-img margin-bottom-64px"
+  src = "Images/hundreds-times.png">
+
+  <div class = "text-body">
+
+    <p>
+      Spoiler alert: it’s not very fun. That’s where Ansible really shines.
+      It takes something difficult, and turns it into an easy and repeatable
+      process.
+    </p>
+
+  <h1 class = "case_study_section_title">Goal</h1>
+
+  <p class = "margin-top-24-px">
+    Okay, now that you understand why Ansible is so great, you understand why
+    it made sense for us to support Ansible on IBM Cloud.
+  </p>
+
+  <p class = "main-point">
+    Our goal was then to figure out what the Ansible experience would look like
+    on IBM Cloud.
+  </p>
+
+  </div>
+
+  <img class = "case-study-img" src = "Images/ios-gmail-comparison.png">
+
+  <div class = "text-body">
+
+    <p class = "caption">
+      At some point, a designer had to determine how users would access Gmail
+      (an existing service) on iOS. Similarly, we had to figure out how users
+      would access Ansible (an existing tool) on IBM Cloud.
+    </p>
+
+    <p class = "margin-top-64px">
+      At the beginning of the project, there were two directions we could’ve
+      gone in: aligning with IBM Cloud or aligning with Ansible.
+      I explored both.
+    </p>
+
+    <h1 class = "case_study_section_title">Exploration 1: Align with IBM Cloud
+    </h1>
+
+    <p class = "margin-top-24-px">
+      Whenever you create or buy something on IBM Cloud, you generally
+      follow this pattern:
+    </p></br>
+
+    <ol class = "numbered-list">
+      <li>Click on the <b>Create</b> button.</li>
+      <li>Go through the create flow.</li>
+      <li>Land on the <b>resource detail</b> page, where you can edit
+      things.</li>
+    </ol>
+
+  </div>
+
+  <img class = "case-study-img" src = "Images/align-ibm-cloud.png">
+
+  <div class = "text-body">
+
+    <p class = "caption">
+      I mocked up a create flow that aligned more with existing IBM Cloud
+      patterns. However, I noticed that this exploration had inconsistent
+      create and edit experiences.
+    </p>
+
+    <p class = "margin-top-64px">
+      Now, this is great if you’re buying something (like a Kubernetes cluster
+      or a virtual server) and you need to perform a transaction with
+      the customer.
+    </p></br></br>
+
+    <p>
+      However, if we’re talking about creating something that’s free (like an
+      Ansible playbook), it doesn’t really make sense to create things one way,
+      and then edit things in a completely different way. This just ends up
+      increasing the cognitive load for the user. In other words, it’s bad UX 🙅🏻‍♀️
+    </p>
+
+    <h1 class = "case_study_section_title">Exploration 2: Align with Ansible
+    </h1>
+
+    <p class = "margin-top-24-px">
+      Next, I looked at Ansible. Here, the experience of creating something is
+      identical to that of editing something.
+    </p>
+
+  </div>
+
+  <img class = "case-study-img" src = "Images/align-with-ansible.png">
+
+  <div class = "text-body">
+
+    <p class = "caption">
+      I mocked up a create flow that aligned more with Ansible patterns.
+      Although this exploration had consistent create and edit experiences,
+      it did not afford many opportunities to guide the user through the
+      create process.
+    </p>
+
+    <p class = "margin-top-64px">
+      It’s like when you create a data table on Excel. When you want to edit
+      that data table later on, you know exactly how to do it, because you had
+      gone through the same process to create it.
+    </p></br></br>
+
+    <p>
+      So that was good. The user didn’t have to go through another learning
+      curve to edit something.
+    </p></br></br>
+
+    <p>
+      However, I found that this flow gave little opportunity for us to guide
+      the user through the create experience 🤔
+    </p>
+
+    <h1 class = "case_study_section_title">Exploration 3: Combine the two
+    previous approaches</h1>
+
+    <p class = "margin-top-24-px">
+      So — you guessed it — I looked into combining the two approaches.
+    </p></br></br>
+
+    <p>
+      Although I had initially wanted to do away with the create page completely
+      (so that we could have more consistent create and edit experiences),
+      this would have been completely inconsistent with IBM Cloud’s existing
+      create patterns.
+    </p></br></br>
+
+    <p>
+      Thus, as a compromise, I intentionally designed the create page to be as
+      minimal as possible, so that the bulk of the create flow would actually
+      reside on the resource detail page.
+    </p>
+
+  </div>
+
+  <img class = "case-study-img" src = "Images/combine-approaches.png">
+
+  <div class = "text-body">
+
+  <p class = "caption">
+    While I had initially wanted to do away with the create page (second screen)
+    completely, I realized this would have have been completely inconsistent
+    with IBM CLoud’s existing create patterns. Thus, I ended up intentionally
+    designing the create page to be as minimal as possible.
+  </p>
+
+
+  <p class = "margin-top-64px">
+    Moreover, I also had to figure out how to guide the user through the create
+     experience (as opposed to just throwing them into the deep end and having
+     them figure it out for themselves). So here are a few high-fidelity changes
+     that I made:
+  </p>
+
+  </div>
+
+  <div class = "several-image-row">
+    <div>
+      <h4 class = "image-label">Version 1</h4>
+      <img class = "an-image" src = "Images/num-pi-v1.png">
+    </div>
+    <div>
+      <h4 class = "image-label">Version 2</h4>
+      <img class = "an-image" src = "Images/num-pi-v2.png">
+    </div>
+  </div>
+
+
+  <div class = "text-body">
+    <p class = "caption">
+      For each step, I added a number and a progress indicator icon. This way,
+      from the user’s perception, instead of landing on a page with a bunch of
+      section headings, they would land on a specific step they were supposed
+      to focus on in the context of a linear progression.
+    </p>
+  </div>
+
+  <div class = "several-image-row">
+    <div>
+      <h4 class = "image-label">Version 1</h4>
+      <img class = "an-image" src = "Images/save.png">
+    </div>
+    <div>
+      <h4 class = "image-label">Version 2</h4>
+      <img class = "an-image" src = "Images/next.png">
+    </div>
+  </div>
+  <div class = "text-body">
+    <p class = "caption">
+      I changed the call to action from <b>Save</b> to <b>Next</b>. Again,
+      this was done with the intention of instilling a sense of linear
+      progression for the user. <b>Save</b> implies that you can edit any
+      section you want, whereas <b>Next</b> implies that you must finish this
+      section before you go to the next section.
+    </p>
+  </div>
+
+  <div class = "several-image-row">
+    <div>
+      <h4 class = "image-label">Version 1</h4>
+      <img class = "an-image" src = "Images/edit-icon.png">
+    </div>
+    <div>
+      <h4 class = "image-label">Version 2</h4>
+      <img class = "an-image" src = "Images/chevron.png">
+    </div>
+  </div>
+  <div class = "text-body">
+    <p class = "caption">
+      I changed the edit icon to a chevron. This was done to eliminate the
+      user’s sense of being overwhelmed with many sections to edit, and to
+      promote the sense of situating oneself in a focused step in the context
+      of a linear progression.
+    </p>
+
+  <h1 class = "case_study_section_title">Final prototype</h1>
+
+  <p class = "margin-top-24-px">
+    And *drumroll please* all of these explorations and high-fidelity changes
+    resulted in this final prototype.
+  </p>
+
+  </div>
+
+  <video id = "ibm-case-study-vid-end" class = "featured-case-study-vid"
+  playsinline muted autoplay loop
+  src = "Videos/schematics-mockup-screen-recording.mov"></video>
+
+
+</div>
+
+</body>
+
+<footer class = "animated fadeInUp">
+  <h5>✌️ Designed + developed by Kathy Wang</h3>
+  <a class = "contactlogolink" href = "https://www.linkedin.com/in/kathytwang/" target="_blank">
+    <svg class = "contactlogo" width="659" height="662" viewBox="0 0 659 662" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path id = "blue-part" d="M0.808594 47.4221C0.808594 21.2453 22.5835 0 49.4288 0H610.021C636.875 0 658.641 21.2453 658.641 47.4221V614.587C658.641 640.772 636.875 662 610.021 662H49.4288C22.5835 662 0.808594 640.772 0.808594 614.595V47.4135V47.4221Z" fill="#006699"/>
+    <path id = "white-part" d="M200.221 554.158V255.23H100.862V554.158H200.23H200.221ZM150.559 214.424C185.201 214.424 206.768 191.468 206.768 162.782C206.117 133.445 185.201 111.132 151.219 111.132C117.211 111.132 95.002 133.445 95.002 162.782C95.002 191.468 116.56 214.424 149.908 214.424H150.551H150.559ZM255.215 554.158H354.565V387.243C354.565 378.318 355.216 369.375 357.838 363.003C365.018 345.143 381.367 326.659 408.82 326.659C444.764 326.659 459.151 354.069 459.151 394.258V554.158H558.501V382.763C558.501 290.949 509.49 248.224 444.122 248.224C390.526 248.224 366.989 278.178 353.914 298.581H354.574V255.239H255.223C256.517 283.283 255.215 554.167 255.215 554.167V554.158Z" fill="white"/>
+    </svg>
+  </a>
+
+  <a id = "tweet" class = "contactlogolink" href = "https://twitter.com/kwangaroo" target="_blank">
+    <svg class = "contactlogo" width="250" height="204" viewBox="0 0 250 204" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path id = "twitterlogo" d="M78.62 203.138C172.96 203.138 224.56 124.978 224.56 57.198C224.56 54.978 224.56 52.768 224.41 50.568C234.448 43.3071 243.114 34.3168 250 24.018C240.639 28.166 230.708 30.8863 220.54 32.088C231.247 25.6778 239.261 15.5957 243.09 3.718C233.022 9.69256 222.006 13.9031 210.52 16.168C202.787 7.94485 192.559 2.49968 181.419 0.675133C170.279 -1.14942 158.848 0.748364 148.895 6.07481C138.943 11.4012 131.023 19.8594 126.362 30.1404C121.701 40.4214 120.558 51.952 123.11 62.948C102.718 61.9257 82.768 56.6263 64.5564 47.3939C46.3448 38.1615 30.2784 25.2024 17.4 9.358C10.8409 20.6496 8.832 34.0166 11.7823 46.7374C14.7326 59.4582 22.4202 70.5763 33.28 77.828C25.1174 77.5861 17.1328 75.3841 10 71.408C10 71.618 10 71.838 10 72.058C10.0032 83.9002 14.1026 95.3767 21.6028 104.541C29.103 113.705 39.5423 119.993 51.15 122.338C43.5987 124.397 35.6758 124.698 27.99 123.218C31.2676 133.41 37.6486 142.322 46.2407 148.709C54.8328 155.095 65.2061 158.637 75.91 158.838C57.7474 173.112 35.3106 180.861 12.21 180.838C8.12903 180.83 4.05204 180.583 0 180.098C23.4564 195.151 50.7491 203.135 78.62 203.098" fill="white"/>
+    </svg>
+  </a>
+</footer>
+
+</html>
