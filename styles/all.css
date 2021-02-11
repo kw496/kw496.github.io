@@ -690,9 +690,28 @@ footer {
   }
 }
 
+@media screen and (max-width: 750px) {
+  #mobile-second-img-label {
+    margin-top: 48px;
+  }
+}
+
+
 @media screen and (max-width: 1080px) {
   .an-image {
     width: 292px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .several-image-row {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .an-image {
+    width: 100%
   }
 }
 
