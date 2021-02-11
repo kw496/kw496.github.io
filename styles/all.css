@@ -664,7 +664,6 @@ footer {
 
 @media screen and (max-width: 1080px) {
   .logotextdiv, .personalitypicabouttextdiv {
-    /* margin: 0 auto; */
     display: block;
   }
 }
