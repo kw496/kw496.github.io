@@ -1,4 +1,5 @@
-window.onload = () => {
+window.onload = function ()
+{
 // $("#nav a").on("click", function(){
 //    $("#nav a").find(".active").removeClass("active");
 //    $(this).parent().addClass("active");
@@ -7,24 +8,24 @@ window.onload = () => {
 
 
 // When the user scrolls the page, execute myFunction
-// window.onscroll = function() {myFunction()};
+window.onscroll = function() {myFunction()};
 
-// // Get the header
-// var header = document.getElementById("myHeader");
-// console.log(header);
-//
-// // Get the offset position of the navbar
-// var sticky = header.offsetTop;
-// console.log( sticky );
-//
-// // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-// function myFunction() {
-//   if ( window.pageYOffset > sticky ) {
-//     header.classList.add("sticky");
-//   } else {
-//     header.classList.remove( "sticky" );
-//   }
-// }
+// Get the header
+var header = document.getElementById("myHeader");
+console.log(header);
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+console.log( sticky );
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if ( window.pageYOffset > sticky ) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove( "sticky" );
+  }
+}
 //
 // // Get the container element
 // var btnContainer = document.getElementById("ul");
@@ -66,19 +67,19 @@ window.onload = () => {
 //
 // })
 
-  function myFunction() {
-    /* Get the text field */
-    var copyText = document.getElementById("myInput");
-    console.log( copyText );
-
-    /* Select the text field */
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-
-    /* Copy the text inside the text field */
-    document.execCommand("copy");
-
-    /* Alert the copied text */
-    alert("Copied the text: " + copyText.value);
-  }
+//   function myFunction() {
+//     /* Get the text field */
+//     var copyText = document.getElementById("myInput");
+//     console.log( copyText );
+//
+//     /* Select the text field */
+//     copyText.select();
+//     copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+//
+//     /* Copy the text inside the text field */
+//     document.execCommand("copy");
+//
+//     /* Alert the copied text */
+//     alert("Copied the text: " + copyText.value);
+//   }
 }
